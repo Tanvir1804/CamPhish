@@ -1,8 +1,6 @@
 # 🌟 CamPhish 🌟
 *Capture cam shots from a target's device just by sending a link!*
 
-![CamPhish](https://techchip.net/wp-content/uploads/2020/04/camphish.jpg)
-
 ## 🎥 What is CamPhish?
 **CamPhish** is a powerful tool designed to capture camera shots from a target's phone front camera or PC webcam. It hosts a fake website on a built-in PHP server and uses **ngrok** or **serveo** to generate a link. When the target clicks the link and grants camera permission, CamPhish captures the shots seamlessly.
 
