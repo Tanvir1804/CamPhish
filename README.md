@@ -1,57 +1,70 @@
-# CamPhish
-Grab cam shots from target's phone front camera or PC webcam just sending a link.
+Certainly! Here's a more creative and visually appealing version of your content:
+
+---
+
+# 🌟 CamPhish 🌟
+*Capture cam shots from a target's device just by sending a link!*
+
 ![CamPhish](https://techchip.net/wp-content/uploads/2020/04/camphish.jpg)
 
-# What is CamPhish?
-<p>CamPhish is techniques to take cam shots of target's phone front camera or PC webcam. CamPhish Hosts a fake website on in built PHP server and uses ngrok & serveo to generate a link which we will forward to the target, which can be used on over internet. website asks for camera permission and if the target allows it, this tool grab camshots of target's device</p>
+## 🎥 What is CamPhish?
+**CamPhish** is a powerful tool designed to capture camera shots from a target's phone front camera or PC webcam. It hosts a fake website on a built-in PHP server and uses **ngrok** or **serveo** to generate a link. When the target clicks the link and grants camera permission, CamPhish captures the shots seamlessly.
 
-## Features
-<p>In this tool I added two automatic webpage templates for engaged target on webpage to get more picture of cam</p>
-<ul>
-  <li>Festival Wishing</li>
-  <li>Live YouTube TV</li>
-   <li>Online Meeting [Beta]</li>
-</ul>
-<p>simply enter festival name or youtube's video ID</p>
+## ✨ Features
+CamPhish offers two engaging webpage templates to entice targets into granting camera access:
+1. **Festival Wishing** 🎉
+2. **Live YouTube TV** 📺
+3. **Online Meeting [Beta]** 💻
 
-## This Tool Tested On :
-<ul>
-  <li>Kali Linux</li>
-  <li>Termux</li>
-  <li>MacOS</li>
-  <li>Ubuntu</li>
-  <li>Parrot Sec OS</li>
-</ul>
+Simply input the festival name or YouTube video ID to use these templates!
 
-# Installing and requirements
-<p>This tool require PHP for webserver, SSH or serveo link. First run following command on your terminal</p>
+## 🚀 Tested On:
+- **Kali Linux**
+- **Termux**
+- **macOS**
+- **Ubuntu**
+- **Parrot Sec OS**
 
-```
+## ⚙️ Installation & Requirements
+CamPhish requires PHP for the webserver and either SSH or serveo for link generation. Begin by installing the necessary packages:
+
+```bash
 apt-get -y install php openssh git wget
 ```
 
-## Installing (Kali Linux/Termux):
-
-```
+### 📥 Installation (Debian/Termux):
+```bash
 git clone https://github.com/thebugbounter/CamPhish
 cd CamPhish
 chmod +x camphish.sh
 bash camphish.sh
 ```
 
-## Change Log:
+## 📝 Change Log:
+### **Version 1.7:** 🎉 New Features & Fixes
+- Fixed: Termux issue with home directory.
+- Added support for Apple Silicon (M1/M2/M3 ARM64) and Raspberry Pi ARM64.
 
-<p><b>Version: 1.7:</b> Fix and add support</p>
-<ul>
-  <li>fixed: termux failed to get home directory</li>
-  <li>Add support for Apple sillicon (M1/M2/M3 ARM64)</li>
-  <li>Add support for arm64 like Raspberry Pi</li>
-</ul>
-<p><b>Version: 1.6:</b> Fix ngrok direct link generate</p>
-<p><b>Version: 1.5:</b> Add new online meeting template</p>
-<p><b>Version: 1.4:</b> Ngrok authtoken update</p>
-<p><b>Version: 1.3:</b> Fix ngrok direct link</p>
+### **Version 1.6:**
+- Fixed ngrok direct link generation.
 
-#### For More Video subcribe <a href="http://youtube.com/techchipnet">TechChip YouTube Channel</a>
-<p>CamPhish is created to help in penetration testing and it's not responsible for any misuse or illegal purposes.</p>
-<p>CamPhish is inspired by https://github.com/thelinuxchoice/ Big thanks to @thelinuxchoice</p>
+### **Version 1.5:**
+- Introduced new online meeting template.
+
+### **Version 1.4:**
+- Updated ngrok authtoken.
+
+### **Version 1.3:**
+- Fixed ngrok direct link issue.
+
+---
+
+**🔔 Stay Updated:** For more tutorials and updates, subscribe to [TechChip YouTube Channel](http://youtube.com/techchipnet)!
+
+**Disclaimer:** CamPhish is designed for penetration testing and ethical hacking. Please use it responsibly and only for legal purposes. The creators are not liable for any misuse.
+
+**Special Thanks:** Inspired by [thelinuxchoice](https://github.com/thelinuxchoice/). Big thanks to @thelinuxchoice for the inspiration and guidance!
+
+---
+
+Feel free to customize this further to suit your style or specific needs!
