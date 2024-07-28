@@ -51,11 +51,5 @@ bash camphish.sh
 ### **Version 1.3:**
 - Fixed ngrok direct link issue.
 
----
 
-**🔔 Stay Updated:** For more tutorials and updates, subscribe to [TechChip YouTube Channel](http://youtube.com/techchipnet)!
-
-**Disclaimer:** CamPhish is designed for penetration testing and ethical hacking. Please use it responsibly and only for legal purposes. The creators are not liable for any misuse.
-
-**Special Thanks:** Inspired by [thelinuxchoice](https://github.com/thelinuxchoice/). Big thanks to @thelinuxchoice for the inspiration and guidance!
 
