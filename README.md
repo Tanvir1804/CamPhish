@@ -1,7 +1,3 @@
-Certainly! Here's a more creative and visually appealing version of your content:
-
----
-
 # 🌟 CamPhish 🌟
 *Capture cam shots from a target's device just by sending a link!*
 
@@ -65,6 +61,3 @@ bash camphish.sh
 
 **Special Thanks:** Inspired by [thelinuxchoice](https://github.com/thelinuxchoice/). Big thanks to @thelinuxchoice for the inspiration and guidance!
 
----
-
-Feel free to customize this further to suit your style or specific needs!
