@@ -34,22 +34,7 @@ chmod +x camphish.sh
 bash camphish.sh
 ```
 
-## 📝 Change Log:
-### **Version 1.7:** 🎉 New Features & Fixes
-- Fixed: Termux issue with home directory.
-- Added support for Apple Silicon (M1/M2/M3 ARM64) and Raspberry Pi ARM64.
 
-### **Version 1.6:**
-- Fixed ngrok direct link generation.
-
-### **Version 1.5:**
-- Introduced new online meeting template.
-
-### **Version 1.4:**
-- Updated ngrok authtoken.
-
-### **Version 1.3:**
-- Fixed ngrok direct link issue.
 
 
 
